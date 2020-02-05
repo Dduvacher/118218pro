@@ -2,10 +2,10 @@
  * Required External Modules
 */
 
-import * as dotenv from "dotenv";
-import express from "express";
-import cors from "cors";
-import helmet from "helmet";
+require('dotenv').config()
+const express = require('express');
+const cors = require('cors');
+const helmet = require('helmet');
 
 dotenv.config();
 
