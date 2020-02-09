@@ -65,38 +65,84 @@ type Organization = {
   establishments_count: number,
 }
 
+type Website = {
+  domain: string,
+  url: string,
+  description: string,
+  webmaster_email: string,
+  webmaster_phone: string,
+  techno_types: string[],
+}
+
+type Year = {
+  year: string,
+  sales: number,
+  profit: number,
+  closing_date: string,
+}
+
 export type SocieteInfo = {
-  success: boolean,
-  result: {
-    id: string,
-    organization: Organization,
-    contacts: {
-      main_corporate_officier: Person,
-      corporate_officiers: Person[],
-      email: string,
-      emails: {
-        value: string,
-        type: string,
-      }[],
-      phones: {
-        value: string
-      }[],
-    },
-    web_infos: {
-
-    },
-    financials: {
-
-    },
-    mark_infos: {
-
-    },
-    last_bodacc: {
-
-    },
-    actes: {
-     date: string,
-     type: string, 
+  id: string,
+  organization: Organization,
+  contacts: {
+    main_corporate_officier: Person,
+    corporate_officiers: Person[],
+    email: string,
+    emails: {
+      value: string,
+      type: string,
+    }[],
+    phones: {
+      value: string
     }[],
   },
+  web_infos: {
+    logo_url: string,
+    website_url: string,
+    websites: Website[],
+    linkedin: {
+      url: string,
+    },
+    twitter: {
+      url: string,
+    },
+    facebook: {
+      url: string,
+    },
+    wikipedia: {
+      url: string,
+    },
+  },
+  financials: {
+    last_sales: number,
+    last_profit: number,
+    last_staff: number,
+    years: Year[],
+  },
+  mark_infos: {
+    classes: {
+      number: string,
+      description: string,
+    }[],
+    marks: {
+      name: string,
+      application_date: string,
+    }[],
+  },
+  last_bodacc: {
+    type: string,
+    bodacc_type: string,
+    parution_date: string,
+    number: string,
+    rcs_name: string,
+    legal_name: string,
+    legal_status: string,
+    address: string,
+    balance_sheet_close_date: string,
+    balance_sheet_deposit_type: string,
+  },
+  actes: {
+    date: string,
+    type: string,
+  }[],
 };

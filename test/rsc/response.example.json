@@ -1,0 +1,258 @@
+{
+    "success": true,
+    "result": {
+        "id": "58796f37b3a2806717d059bf",
+        "organization": {
+            "status": "Active",
+            "risk": {
+                "risk_level": 0,
+                "collective_procedure_in_progress": false,
+                "collective_procedures": [],
+                "legal_source_organization_statuses": [
+                    {
+                        "source_name": "RCS",
+                        "organization_status": "Active"
+                    },
+                    {
+                        "source_name": "INSEE",
+                        "organization_status": "Active"
+                    },
+                    {
+                        "source_name": "Bodacc",
+                        "organization_status": "Active"
+                    }
+                ]
+            },
+            "creation_date": "1955-01-01",
+            "capital": "146338",
+            "registration_number": "552121634",
+            "full_registration_number": "55212163400059",
+            "vat_number": "FR92552121634",
+            "greffe_name": "Paris",
+            "name": "L'OLYMPIA",
+            "activity": {
+                "ape_code": "9004Z",
+                "ape_code_level1": "RU",
+                "ape_code_level2": "RZ",
+                "ape_code_level3": "90",
+                "ape_code_level4": "R90Z",
+                "ape_code_level5": "9004Z",
+                "ape_name": "Gestion de salles de spectacles",
+                "corporate_object": "Gestion de salles de spectacles"
+            },
+            "legal": {
+                "name": "Société par actions simplifiée",
+                "code_level1": "5",
+                "code_level2": "57",
+                "code_level3": "5710",
+                "person_type": "LegalEntity",
+                "type": "Siege"
+            },
+            "address": {
+                "street": "18 RUE DE CAUMARTIN",
+                "postal_code": "75009",
+                "city": "Paris",
+                "country_code": "FR",
+                "country": "FRANCE",
+                "lng": 2.3399,
+                "lat": 48.8718
+            },
+            "last_legal_update_date": "2019-08-09",
+            "establishments_count": 0
+        },
+        "contacts": {
+            "main_corporate_officier": {
+                "firstName": "Simon",
+                "lastName": "Gillham",
+                "name": "Simon Gillham",
+                "birth_date": "1956-02-24",
+                "role": "Président",
+                "role_start_date": "2016-06-20",
+                "company": false
+            },
+            "corporate_officiers": [
+                {
+                    "firstName": "Simon",
+                    "lastName": "Gillham",
+                    "name": "Simon Gillham",
+                    "birth_date": "1956-02-24",
+                    "role": "Président",
+                    "role_start_date": "2016-06-20",
+                    "company": false
+                },
+                {
+                    "firstName": "Christian",
+                    "lastName": "Soulabaille",
+                    "name": "Christian Soulabaille",
+                    "birth_date": "1961-03-06",
+                    "role": "Directeur général",
+                    "role_start_date": "2016-06-20",
+                    "company": false
+                },
+                {
+                    "firstName": "Laurent",
+                    "lastName": "de Cerner",
+                    "name": "Laurent de Cerner",
+                    "birth_date": "1974-07-05",
+                    "role": "Directeur général",
+                    "role_start_date": "2016-06-20",
+                    "company": false
+                }
+            ],
+            "email": "contact@olympiahall.com",
+            "emails": [
+                {
+                    "value": "contact@olympiahall.com",
+                    "type": "generic"
+                }
+            ],
+            "phones": [
+                {
+                    "value": "08 92 68 33 68"
+                },
+                {
+                    "value": "01 55 27 10 00"
+                }
+            ]
+        },
+        "web_infos": {
+            "logo_url": "https://www.olympiahall.com/assets/images/illustrations/olympia-logo.png",
+            "website_url": "http://www.olympiahall.com/",
+            "websites": [
+                {
+                    "domain": "olympiahall.com",
+                    "url": "http://www.olympiahall.com/",
+                    "description": "L’Olympia | Le music hall à Paris | Assistez aux concerts et spectacles humour/one man show des plus grands artistes dans une salle mythique.",
+                    "webmaster_email": "domaine.vivendi@vivendi.com",
+                    "webmaster_phone": "01 71 71 10 00",
+                    "techno_types": [
+                        "php",
+                        "joomla",
+                        "recaptcha",
+                        "yoastseo",
+                        "xmlrpc",
+                        "googletagmanager",
+                        "googleanalytics"
+                    ]
+                }
+            ],
+            "linkedin": {
+                "url": "https://www.linkedin.com/company/l%27olympia-bruno-coquatrix"
+            },
+            "twitter": {
+                "url": "https://twitter.com/@OLYMPIAHALL"
+            },
+            "facebook": {
+                "url": "https://www.facebook.com/olympiabrunocoquatrix/"
+            },
+            "wikipedia": {
+                "url": "https://fr.wikipedia.org/wiki/Olympia_(Paris)"
+            }
+        },
+        "financials": {
+            "last_sales": 26916756,
+            "last_profit": 922684,
+            "last_staff": 20,
+            "years": [
+                {
+                    "year": "2018",
+                    "sales": 26916756,
+                    "profit": 922684,
+                    "closing_date": "2018-12-31"
+                },
+                {
+                    "year": "2017",
+                    "sales": 26026792,
+                    "profit": 660363,
+                    "staff": 20,
+                    "closing_date": "2017-12-31"
+                },
+                {
+                    "year": "2016",
+                    "sales": 25168465,
+                    "profit": 985145,
+                    "staff": 32,
+                    "closing_date": "2016-12-31"
+                },
+                {
+                    "year": "2015",
+                    "sales": 27291684,
+                    "profit": 1272962,
+                    "closing_date": "2015-12-31"
+                },
+                {
+                    "year": "2014",
+                    "sales": 27960548,
+                    "profit": 187032,
+                    "staff": 35,
+                    "closing_date": "2014-12-31"
+                },
+                {
+                    "year": "2013",
+                    "sales": 31441931,
+                    "profit": 943442,
+                    "staff": 36,
+                    "closing_date": "2013-12-31"
+                },
+                {
+                    "year": "2012",
+                    "sales": 31376987,
+                    "profit": 1149392
+                }
+            ]
+        },
+        "mark_infos": {
+            "classes": [
+                {
+                    "number": "9",
+                    "description": "Supports de sons et/ou d'images enregistrés et non enregistrés (à l'exception de films non exposés) ; enregistrements musicaux sonores et vidéo ; supports d'enregistrement magnétiques ; logiciels, notamment pour télécharger de la musique, du son, des images et du texte par des réseaux d'ordinateur ou de télécommunications. Musique, sonneries, fichiers MP3 et vidéos téléchargeables."
+                },
+                {
+                    "number": "41",
+                    "description": "Éducation ; formation ; divertissement ; activités sportives et culturelles. Informations en matière de divertissement ou d'éducation. Services de loisirs. Publication de livres. Services d'édition de livres d'albums, de catalogues et de programmes. Prêt de livres. Dressage d'animaux. Production de films sur bandes vidéos. Location de films cinématographiques. Location d'enregistrements sonores. Location de magnétoscopes ou de postes de radio et de télévision. Location de décors de spectacles. Montage de bandes vidéo. Services de photographie. Organisation de concours (éducation ou divertissement). Organisation et conduite de colloques, conférences ou congrès. Organisation d'expositions à buts culturels ou éducatifs. Réservation de places de spectacles. Services de jeux proposés en ligne (à partir d'un réseau informatique). Services de jeux d'argent. Publication électronique de livres et de périodiques en ligne. Micro-édition."
+                }
+            ],
+            "marks": [
+                {
+                    "name": "OH! BY L OLYMPIA",
+                    "application_date": "2016-12-20"
+                },
+                {
+                    "name": "Olympia by Night",
+                    "application_date": "2016-02-03"
+                },
+                {
+                    "name": "L'OLYMPIA",
+                    "application_date": "2015-11-26"
+                }
+            ]
+        },
+        "last_bodacc": {
+            "type": "Bodacc",
+            "bodacc_type": "Avis de dépôts des comptes des sociétés",
+            "parution_date": "2019-08-08",
+            "number": "14311",
+            "rcs_name": "552121634 RCS Paris",
+            "legal_name": "L'OLYMPIA",
+            "legal_status": "Société par actions simplifiée (à associé unique)",
+            "address": "18 rue de Caumartin 75009 Paris",
+            "balance_sheet_close_date": "2018-12-31",
+            "balance_sheet_deposit_type": "Comptes annuels et rapports"
+        },
+        "actes": [
+            {
+                "date": "2018-04-19",
+                "type": "Document relatif au bénéficiaire effectif"
+            },
+            {
+                "date": "2016-06-20",
+                "type": "Extrait de procès-verbal",
+                "description": "Nomination de directeur général"
+            },
+            {
+                "date": "2015-07-29",
+                "type": "Statuts mis à jour"
+            }
+        ]
+    }
+}

@@ -2,10 +2,11 @@
  * Required External Modules
 */
 
-require('dotenv').config()
-const express = require('express');
-const cors = require('cors');
-const helmet = require('helmet');
+import dotenv from 'dotenv';
+import express from 'express';
+import cors from 'cors';
+import helmet from 'helmet';
+import { router } from './router';
 
 dotenv.config();
 
@@ -19,7 +20,7 @@ if (!process.env.PORT) {
 
 const PORT: number = parseInt(process.env.PORT as string, 10);
 
-const app = express();
+export const app = express(); // Export for testing
 
 /**
  *  App Configuration
@@ -28,6 +29,7 @@ const app = express();
 app.use(helmet());
 app.use(cors());
 app.use(express.json());
+app.use('/societe-infos', router);
 
 /**
  * Server Activation
